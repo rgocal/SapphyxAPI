@@ -13,9 +13,13 @@ This repository is not done yet and is currently just a place holder.
 
 # SharedPreferences
 Aside from tapping into the api to create pages, Sapphyx Launcher offers some SharedPreferences to customize the page with color options if your page does not have a settings activity. After you have set SharedPrefences to your views, the user can than customize the color options via the Static Pages preferences.
+
 -Primary Color = android:key="pref_staticPrimary"
+
 -PrimaryDark Color = android:key="pref_staticPrimaryDark"
+
 -Accent Color = android:key="pref_staticAccent"
+
 -Page Background Color = android:key="pref_staticBackground"
 
 In your class add SharedPreferences...
