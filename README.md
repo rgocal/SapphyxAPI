@@ -24,9 +24,13 @@ Aside from tapping into the api to create pages, Sapphyx Launcher offers some Sh
 
 In your class add SharedPreferences...
 
+```xml
 SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
+```
 
 Tap into the SharedPreferences key...
 
+```xml
 background.setBackgroundColor(sp.getInt("pref_drawerBackground", Color.WHITE));
+```
 
