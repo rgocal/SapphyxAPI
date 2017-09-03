@@ -2,6 +2,7 @@ import com.android.builder.core.BuilderConstants
 
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.rgocal'
 
 android {
     compileSdkVersion 26
@@ -12,8 +13,6 @@ android {
         versionCode 1
         versionName "1.00"
     }
-
-    group='com.github.rgocal'
 
     lintOptions {
         abortOnError false
