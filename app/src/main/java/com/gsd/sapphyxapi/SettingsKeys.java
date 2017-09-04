@@ -8,7 +8,7 @@ package com.gsd.sapphyxapi;
  * We can add more at anytime!
  */
 
-public class SettingsKeys {
+interface SettingsKeys {
 
     String COLOR_PAGE_PRIMARY = "pref_staticPrimary";
     String COLOR_PAGE_PRIMARYDARK = "pref_staticPrimaryDark";
