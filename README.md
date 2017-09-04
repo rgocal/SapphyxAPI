@@ -190,5 +190,3 @@ Tap into the SharedPreferences key...
 ```xml
 background.setBackgroundColor(sp.getInt("pref_drawerBackground", Color.WHITE));
 ```
-This repository is not finished yet, please be patient.
-
