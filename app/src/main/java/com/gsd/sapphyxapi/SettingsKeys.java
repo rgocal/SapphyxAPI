@@ -10,9 +10,9 @@ package com.gsd.sapphyxapi;
 
 interface SettingsKeys {
 
-    String COLOR_PAGE_PRIMARY = "pref_staticPrimary";
-    String COLOR_PAGE_PRIMARYDARK = "pref_staticPrimaryDark";
-    String COLOR_PAGE_ACCENT = "pref_staticAccent";
-    String COLOR_PAGE_BACKGROUND = "pref_staticBackground";
+    static String COLOR_PAGE_PRIMARY = "pref_staticPrimary";
+    static String COLOR_PAGE_PRIMARYDARK = "pref_staticPrimaryDark";
+    static String COLOR_PAGE_ACCENT = "pref_staticAccent";
+    static String COLOR_PAGE_BACKGROUND = "pref_staticBackground";
 
 }
